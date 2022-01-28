@@ -1,0 +1,53 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 2,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Address:"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Pizza World",
+                            "size": "ExtraLarge",
+                            "weight": "Bolder",
+                            "spacing": "None"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "9.3 ★★★★★★★★★✰   (1100) . $$",
+                            "spacing": "None",
+                            "isSubtle": true
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": " Gaurav Tower Marg, above Bank Of Maharastra, D-Block, Crystal Court, Malviya Nagar, Jaipur, Rajasthan 302017",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Pizza.jpg",
+                            "width": "130px",
+                            "height": "130px"
+                        }
+                    ],
+                    "verticalContentAlignment": "Bottom"
+                }
+            ]
+        }
+    ]
+}
